@@ -2,7 +2,6 @@ from MainPageClass import *
 from UserActivityClass import *
 
 
-
 def main():
     app = QApplication(sys.argv)
     w = MainPage(title="PyQt5")
@@ -15,5 +14,6 @@ def main():
     # listener.start()
 
     sys.exit(app.exec_())
+
 
 main()
